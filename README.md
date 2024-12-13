@@ -2,7 +2,7 @@
 
 [![Java](https://img.shields.io/badge/Java-Programming-orange)](https://www.oracle.com/java/)  
 [![SDG 16](https://img.shields.io/badge/SDG-16-blue)](https://sdgs.un.org/goals/goal16)  
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen)](https://github.com/yourusername/voting-system)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen)](https://github.com/Aleeiijx/Valdez_Final_Project_OOP_VOTE/tree/main)
 
 ---
 
@@ -61,23 +61,21 @@ The system strengthens trust in democratic institutions and contributes to peace
 
 ### 1. **Main Menu**
 The main menu offers clear options for voters and admins.  
-![Main Menu](screenshots/main_menu.png)
+![Main Menu](main_menu.png)
 
 ### 2. **Voter Registration**
 Voters can register with their ID, name, and age.  
-![Voter Registration](screenshots/voter_registration.png)
+![Voter Registration](voter_registration_sign_up.png)
+![Voter Registration](voter_registration_sign_in.png)
 
 ### 3. **Voting Process**
 Voters can view the list of candidates and cast their votes securely.  
-![Voting Process](screenshots/voting_process.png)
+![Voting Process](voting_process.png)
 
-### 4. **Admin Dashboard**
-Admins can manage elections, track activity logs, and view results.  
-![Admin Dashboard](screenshots/admin_dashboard.png)
-
-### 5. **Election Results**
-Admins have access to real-time election results with detailed breakdowns.  
-![Election Results](screenshots/election_results.png)
+### 4. **Admin Menu and Election Result**
+Admins can manage elections, track activity logs, and view results.Admins have access to real-time election results with detailed breakdowns. 
+![Election Results](admin_menu.png)
+![Admin Menu](admin_result_and_stories.png)
 
 ---
 
@@ -99,7 +97,7 @@ javac -d bin src/**/*.java
 ### 3. Run the Application
 Navigate to the compiled `bin` directory and execute:
 ```bash
-java main.Main
+java vote.Main
 ```
 
 ---
